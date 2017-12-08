@@ -1,0 +1,73 @@
+
+body {
+  font-family: $josefin-font;
+  font-weight: 300;
+  color: $font-color;
+}
+
+a {
+  text-decoration: none;
+  color: $hivis-color;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+header {
+  font-family: $poiret-font;
+  font-size: $header-size;
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  a {
+    text-align: center;
+    color: $contrast-color;
+  }
+
+  nav {
+    background-color: $contrast-color;
+    text-align: center;
+    a {
+      color: $main-color;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    list-style: none;
+    .selected, :hover {
+      font-weight: bold;
+      color: $hivis-color;
+    }
+  }
+}
+
+.container {
+  h2, h3 {
+    font-weight: 400;
+  }
+}
+
+.contact {
+  h3 {
+    font-weight: 300;
+  }
+  ul {
+    font-size: 1.17em;
+  }
+}
+
+.highlight {
+  color: $hivis-color;
+}
+
+footer {
+  font-family: $josefin-font;
+  color: $contrast-color;
+}

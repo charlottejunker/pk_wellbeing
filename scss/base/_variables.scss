@@ -1,0 +1,35 @@
+// colours
+$main-color       :   #aedd94;
+$font-color       :   #606060;
+$contrast-color   :   #fff;
+$hivis-color      :   darken($main-color, 10%);
+
+
+$emerald1         :   #ABEBC6;
+$emerald2         :   #82E0AA;
+$nephritis1       :   #A9DFBF;
+$nephritis2       :   #7DCEA0;
+$green1           :   #A5D6A7;
+$green2           :   #81C784;
+
+
+// fonts
+$poiret-font      :   'Poiret One', serif;
+$josefin-font     :   'Josefin Sans', sans-serif;
+$h-size           :   1.6em;
+$p-size           :   1.4em;
+$header-size      :   1.2em;
+$line-height      :   1.5;
+
+// borders
+$border-heavy      :   $hivis-color solid 2px;
+$border-light      :   $hivis-color solid 1px;
+
+
+// breakpoints
+$mobile-bp        :   480px;
+$tablet-bp        :   768px;
+$desktop-bp       :   1068px;
+
+//layout
+$center           :   0 auto;

@@ -1,0 +1,136 @@
+//main site
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.site-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5% 0;
+  * {
+    align-self: flex-start;
+  }
+}
+
+
+.container {
+  text-align: left;
+  min-width: 90%;
+}
+
+.container2 {
+  width: 90%;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.dropdown-content {
+  display:none;
+  margin: 0 5%;
+}
+
+#courses, #paws, #b, #foundations {
+  min-width: 100%;
+}
+
+#courses, #contact {
+  text-align: left;
+}
+
+#contact {
+  margin: 20px 5%;
+}
+
+
+//landing page
+
+#landingpage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+  margin: 0 5%;
+  img {
+    max-width: 20%;
+  }
+}
+
+#contactlanding {
+  flex: 1;
+  font-family: $josefin-font;
+  padding: 20px 0;
+
+
+  h2 {
+    font-family: $poiret-font;
+  }
+
+  h3, li {
+    font-size: $header-size;
+  }
+
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    line-height: $line-height;
+    a {
+      text-decoration: none;
+      color: #fff;
+      }
+      :hover {
+        font-size: 1.1em;
+    }
+
+  }
+}
+
+
+//test colours
+
+.index {
+  background-color: $main-color;
+}
+
+.emerald1 {
+  background-color: $emerald1;
+}
+
+.emerald2 {
+  background-color: $emerald2;
+}
+
+.nephritis1 {
+  background-color: $nephritis1;
+}
+
+.nephritis2 {
+  background-color: $nephritis2;
+}
+
+.green1 {
+  background-color: $green1;
+}
+
+.green2 {
+  background-color: $green2;
+}
